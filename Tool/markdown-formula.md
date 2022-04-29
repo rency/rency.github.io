@@ -408,10 +408,11 @@ $$
 $$
 ```
 
-
+```bash
 $$
 \left. \frac{{\rm d}y}{{\rm d}x} \right|_{x=0}=3x+1=1
 $$
+```
 
 ```bash
 $$
