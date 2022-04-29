@@ -4,8 +4,7 @@
 
 - 简单、轻便
 - 无需生成 html 文件
-- 众多主题
-- [docsify](https://docsify.js.org/#/zh-cn)
+- 众多主题  [docsify](https://docsify.js.org/#/zh-cn)
 
 [GitHub](https://github.com/rency)
 [Get Started](README.md)
