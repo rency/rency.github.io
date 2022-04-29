@@ -6,6 +6,7 @@
 - 众多主题  [docsify](https://docsify.js.org/#/zh-cn)
 
 [GitHub](https://github.com/rency)
+[Gitee](https://gitee.com/rency)
 [Get Started](README.md)
 
 
