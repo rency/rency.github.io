@@ -7,11 +7,8 @@
 - 众多主题
 
 [GitHub](https://github.com/rency)
-[开始阅读](README.md)
+[Get Started](README.md)
 [docsify](https://docsify.js.org/#/zh-cn)
 
 <!-- 背景色 -->
-![color](#fff)
-
-
-
+![color](#f0f0f0)
