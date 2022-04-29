@@ -1,42 +1,155 @@
-# 教小白使用 docsify，搭建一个贼简单的所见即所得博客！ 🔥
 
->你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。
+## Java
 
-## 博客搭建
+- [MyBatis-Plus中如何使用ResultMap](Java/resultmap-in-mybatis-plus.md)
+- [换种思路写Mock，让单元测试更简单](Java/testable-mock.md)
+- [一文读懂Java中的动态代理](Java/dynamic-proxy-in-java.md)
+- [云原生时代的Java](Java/java-in-the-future.md)
+  
+- [阿里巴巴Java开发手册——编程规约](Java/alibaba-java-coding-guidelines-1.md)
+- [阿里巴巴Java开发手册——异常处理、MySQL 数据库](Java/alibaba-java-coding-guidelines-2.md)
 
-有粉丝伙伴问小傅哥，你那博客：[https://bugstack.cn](https://bugstack.cn) 挺好的我也想整一个，面试写到简历上`还能加分`，也是给自己建设影响力的东西。
+## 大数据
 
-不过我没有自己的域名，也没有一些云服务器，还不太会前端的玩意。之后搞的太复杂我又没有时间维护，那有没有简单点的方式，就能搞一个这样博客呢？
+- [Flink流处理基础](BigData/flink-stream-processing-theory.md)
+- [Flink把数据sink到kafka多个topic](BigData/flink-kafka-sink-multiple-topics.md)
 
-那当然有哇，你傅哥玩过的博客类型那可多了去了，包括：hexo、vuepress、jekyll、docsify等，这些都能满足你搭建博客的需求。但能满足小白使用的，我强烈推荐 docsify 这货简直是傻白甜都能使用，直接在 GitHub/Gitee 维护一个文档仓库，就可以拥有一个漂亮、简单、好用，易于维护和所见即所得的博客。
+- [centos7安装部署opentsdb2.4.0](BigData/how-to-install-opentsdb.md)
+- [opentsdb探索之路——部分设计与实现](BigData/the-road-of-exploring-opentsdb.md)
 
-**为什么不用 CSDN、掘金、简书？**
+## Python
 
-当然可以用(`扩大影响力`)，只不过这些都不是原稿存放平台，你的内容输出需要被随心所欲的维护和积累，以及将来需要的时候还可以放置到任何一个其他平台。而你写在 GitHub 仓库，就是最原始的那一份，其他的都是备份传播，这样更有益于你来沉淀、积累和分享。
+- [Python开发环境搭建](Python/python-environment.md)
+- [一文上手Python3](https://www.cnblogs.com/bytesfly/p/python.html)
 
-接下来小傅哥就教你构建这样一个博客，因为我已经帮你准备好了博客模板，所以在这个过程中，你只要跟着步骤，点点点，就部署完事了。**那整吧**，`咱们走起`！
+## AI
 
-详细搭建博客文档：[https://mp.weixin.qq.com/s/aK9Z9RkqWMUpcNzUREEx4Q](https://mp.weixin.qq.com/s/aK9Z9RkqWMUpcNzUREEx4Q)
+**科学计算库:**
+- [快速上手NumPy](https://www.cnblogs.com/bytesfly/p/numpy.html)
+- [快速上手pandas(上)](https://www.cnblogs.com/bytesfly/p/pandas-1.html)
+- [快速上手pandas(下)](https://www.cnblogs.com/bytesfly/p/pandas-2.html)
 
-## 问题交流
 
-![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/bugstack-md.png?raw=true)
+**机器学习:**
+- [从线性回归走进机器学习](AI/linear-regression.md)
+- [最大似然估计](AI/maximum-likelihood-estimation.md)
 
-<br/>
-<div align="center">
-    <a href="https://github.com/fuzhengwei/CodeGuide">关注小傅哥，你可以学到的更多！</a>
-</div>
-<br/>  
+**深度学习:**
+- [PyTorch中backward()函数的gradient参数作用](AI/why-need-gradient-arg-in-pytorch-backward.md)
 
-- **加群交流**
 
-    本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：`学习加群`。
-    
-    <img src="https://bugstack.cn/images/personal/fustack.png" width="180" height="180"/>
+## MySQL
 
-- **公众号(bugstack虫洞栈)**
+- [一文学会MySQL的explain工具](MySQL/how-to-use-mysql-explain.md)
+- [一文读懂MySQL的索引结构及查询优化](MySQL/mysql-index-theory-and-best-practice.md)
+- [一文读懂MySQL的事务隔离级别及MVCC机制](MySQL/mysql-transaction-innodb-mvcc.md)
 
-    沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例、源码分析等。
-    
-    <img src="https://bugstack.cn/images/personal/qrcode.png" width="180" height="180"/>
+## Netty
+
+- [不识Netty真面目，只缘未读此真经](Netty/the-truth-of-netty.md)
+
+## 设计模式
+
+- [设计模式概述](DesignPattern/overview.md)
+- [面向对象设计原则](DesignPattern/object-oriented-design-principles.md)
+
+**创建型模式:**
+- [工厂模式三兄弟(Factory Pattern)](DesignPattern/factory-pattern.md)
+- [单例模式(Singleton Pattern)——确保对象的唯一性](DesignPattern/singleton-pattern.md)
+- [原型模式(Prototype Pattern)——对象的克隆](DesignPattern/prototype-pattern.md)
+- [建造者模式(Builder Pattern)——复杂对象的组装与创建](DesignPattern/builder-pattern.md)
+
+**结构型模式:**
+- [适配器模式(Adapter Pattern)——不兼容结构的协调](DesignPattern/adapter-pattern.md)
+- [桥接模式(Bridge Pattern)——处理多维度变化](DesignPattern/bridge-pattern.md)
+- [组合模式(Composite Pattern)——树形结构的处理](DesignPattern/composite-pattern.md)
+- [装饰模式(Decorator Pattern)——扩展系统功能](DesignPattern/decorator-pattern.md)
+- [外观模式(Facade Pattern)——提供统一的入口](DesignPattern/facade-pattern.md)
+- [享元模式(Flyweight Pattern)——实现对象的复用](DesignPattern/flyweight-pattern.md)
+- [代理模式(Proxy Pattern)——对象的间接访问](DesignPattern/proxy-pattern.md)
+- [一文读懂Java中的动态代理](Java/dynamic-proxy-in-java.md)
+
+**行为型模式:**
+- [职责链模式(Chain of Responsibility Pattern)——请求的链式处理](DesignPattern/chain-of-responsibility-pattern.md)
+- [命令模式(Command Pattern)——请求发送者与接收者解耦](DesignPattern/command-pattern.md)
+- [解释器模式(Interpreter Pattern)——自定义语言的实现](DesignPattern/interpreter-pattern.md)
+- [迭代器模式(Iterator Pattern)——遍历聚合对象中的元素](DesignPattern/iterator-pattern.md)
+- [中介者模式(Mediator Pattern)——协调多个对象之间的交互](DesignPattern/mediator-pattern.md)
+- [备忘录模式(Memento Pattern)——撤销功能的实现]()
+- [观察者模式(Observer Pattern)——对象间的联动]()
+- [状态模式(State Pattern)——处理对象的多种状态及其相互转换]()
+- [策略模式(Strategy Pattern)——算法的封装与切换]()
+- [模板方法模式(Template Method Pattern)——复杂流程步骤的设计]()
+- [访问者模式(Visitor Pattern)——操作复杂对象结构]()
+
+
+## 技术调研and问题排查
+
+**技术调研:**
+- [MongoDB -> kafka 高性能实时同步方案](ProblemResearch/data-from-mongodb-to-kafka.md)
+
+
+**问题排查:**
+- [kafka启动报错"A broker is already registered on the path /brokers/ids/1"排查](ProblemResearch/kafka-broker-already-registered.md)
+- [使用ClouderaManager管理的HBase的RegionServer无法启动排查](ProblemResearch/hbase-region-server-cannot-start.md)
+
+
+
+## 工具
+
+- [使用GitHub Pages + docsify快速搭建一个站点](Tool/github-page-docsify.md)
+- [一文学会在Markdown中编辑数学符号与公式](Tool/markdown-formula.md)
+- [百闻不如一试——公式图片转Latex代码](Tool/image-to-latex.md)
+  
+- [Linux工作环境搭建——deepin系统的使用](Tool/work-on-deepin-linux.md)
+- [Git使用汇总](Tool/about-git.md)
+
+- [Kafka常用topic操作命令](Tool/kafka-commands.md)
+- [使用脚本+kafka自带命令行工具 统计数据写入kafka速率](Tool/kafka-write-speed.md)
+
+- [MacOS如何调整JD-GUI反编译工具字体大小](Tool/how-to-adjust-jd-gui-fontsize.md)
+
+- [实用网站与工具](Tool/awesome-sites.md)
+
+## 程序人生
+
+- [请用一句话证明你是程序员](Life/how-to-prove-that-you-are-a-programmer.md)
+- [工作中如何做好技术积累](Life/study-vs-work.md)
+- [程序员的谎言](Life/what-are-the-most-common-lies-told-by-programmers.md)
+- [程序员的酒后真言](Life/drunk-post-of-a-programmer.md)
+
+## 面试题
+
+- [非技术面试题汇总](Interview/non-technical-interview-questions.md)
+
+## LeetCode
+
+**动态规划:**
+- [爬楼梯](LeetCode/0070-climbing-stairs.md)
+- [使用最小花费爬楼梯](LeetCode/0746-min-cost-climbing-stairs.md)
+- [买卖股票的最佳时机](LeetCode/0121-best-time-to-buy-and-sell-stock.md)
+
+**贪心算法:**
+- [跳跃游戏](LeetCode/0055-jump-game.md)
+- [跳跃游戏 II](LeetCode/0045-jump-game-ii.md)
+- [买卖股票的最佳时机 II](LeetCode/0122-best-time-to-buy-and-sell-stock-ii.md)
+
+**链表:**
+- [反转链表](LeetCode/0206-reverse-linked-list.md)
+
+**二叉树**
+- [二叉树的层序遍历](LeetCode/0102-binary-tree-level-order-traversal.md)
+- [对称二叉树](LeetCode/0101-symmetric-tree.md)
+- [二叉树的前序遍历](LeetCode/0144-binary-tree-preorder-traversal.md)
+- [二叉树的中序遍历](LeetCode/0094-binary-tree-inorder-traversal.md)
+- [二叉树的后序遍历](LeetCode/0145-binary-tree-postorder-traversal.md)
+
+**栈和队列**
+- [有效的括号](LeetCode/0020-valid-parentheses.md)
+
+**数组**
+- [移除元素](LeetCode/0027-remove-element.md)
+
+**数学**
+- [只出现一次的数字](LeetCode/0136-single-number.md)
 
