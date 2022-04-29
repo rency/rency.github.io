@@ -7,7 +7,7 @@
 
 [GitHub](https://github.com/rency)
 [Gitee](https://gitee.com/rency)
-[Get Started](README.md)
+[Get Started](README)
 
 
 <!-- 背景色 
