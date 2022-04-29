@@ -10,19 +10,19 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
   <link rel="stylesheet" href="/assets/css/vue.css">
-  <link rel="stylesheet" href="/assets/css/gitalk.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 <body>
 <div id="app"></div>
 <script>
-  var gitalkConfig = {
-    clientID: '4a657aa4ae6c0f1862a1',
-    clientSecret: '94793d5bac0c884a8798ea941f7c5bc9fb004720',
-    repo: 'fuzhengwei.github.io',
-    owner: 'fuzhengwei',
-    admin: ["fuzhengwei"],
+  const gitalk = new Gitalk({
+    clientID: 'Github Application Client ID',
+    clientSecret: 'Github Application Client Secret',
+    repo: 'https://github.com/rency.github.io',
+    owner: 'user_rcy@163.com',
+    admin: ['user_rcy@163.com'],
     distractionFreeMode: false
-  };
+  })
   window.$docsify = {
     name: "<p>奔跑的蚂蚁</p>",
     repo: 'https://github.com/rency/',
@@ -41,6 +41,12 @@
       noData: '😒 找不到结果',
       depth: 6,
       maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+    },
+    count:{
+      countable:true,
+      fontsize:'0.9em',
+      color:'rgb(90,90,90)',
+      language:'chinese'
     },
     pagination: {
       previousText: 'PREVIOUS',
@@ -72,17 +78,31 @@
           );
           gitalk.render("gitalk-container-" + label);
         });
+        var footer = [
+          '<hr/>',
+          '<footer>',
+          '<span><a href="https://github.com/rency">rency_devp@163.com</a> &copy;2022.</span>',
+          '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+          '</footer>'
+        ].join('');
+        hook.afterEach(function(html) {
+          return html + footer;
+        });
       }
     ]
   }
 </script>
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
-<script src="/assets/js/emoji.min.js"></script>
-<script src="/assets/js/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-<script src="/assets/js/docsify-pagination.min.js"></script>
-<script src="/assets/js/zoom-image.js"></script>
 <script src="/assets/js/prism-bash.js"></script>
 <script src="/assets/js/prism-java.min.js"></script>
 </body>
