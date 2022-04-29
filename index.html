@@ -14,23 +14,30 @@
 <body>
 <div id="app"></div>
 <script>
+  var gitalkConfig = {
+    clientID: 'holder',
+    clientSecret: 'holder',
+    repo: 'rency.github.io',
+    owner: 'user_rcy@163.com',
+    admin: ["user_rcy@163.com"],
+    distractionFreeMode: false
+  };
   window.$docsify = {
     name: "奔跑的蚂蚁",
     repo: 'https://github.com/rency/',
-    loadSidebar: true,
-    coverpage: true,
     auto2top: true,
-    topMargin: 60,//调整top
+    coverpage: true,
+    loadSidebar: true,
+    maxLevel: 6, //最大的内容表级别
+    subMaxLevel: 2,
     executeScript: true,//执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
-    maxLevel: 6,//最大的内容表级别
-    //subMaxLevel: 6,//在自定义边栏中添加目录（TOC)
     externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
     search: {
       paths: 'auto',
       placeholder: '🔍 搜索',
       noData: '😒 找不到结果',
       depth: 6,
-      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      maxAge: 86400000
     },
     count:{
       countable:true,
