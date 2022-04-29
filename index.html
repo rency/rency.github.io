@@ -34,70 +34,56 @@
   };
   window.$docsify = {
     name: "<p>奔跑的蚂蚁</p>",
-    nameLink: 'https://rency.github.io/',
     repo: 'https://github.com/rency/',
     themeColor: '#007be8', // 主题颜色
-    loadSidebar: true,//_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
-    auto2top: true,  //当路线改变时,滚动到屏幕的顶部
+    loadSidebar: true,
+    coverpage: true,
+    auto2top: true,
+    onlyCover: true,
+    topMargin: 60,//调整top
     executeScript: true,//执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
     maxLevel: 6,//最大的内容表级别
     //subMaxLevel: 6,//在自定义边栏中添加目录（TOC)
     externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
-    coverpage: true,
-    onlyCover: true,
-    topMargin: 60,//调整top
-    //executeScript: true,//执行页面上的脚本，仅解析第一个脚本标签
     search: {
       paths: 'auto',
       placeholder: '🔍 搜索',
       noData: '😒 找不到结果',
-      // Headline depth, 1 - 6
       depth: 6,
       maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-    },//添加搜索框
-    auto2top: true,
-      coverpage: true,
-      loadSidebar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
-      search: {
-        paths: 'auto',
-        placeholder: '🔍 Type to search ',
-        noData: '😞 No Results! ',
-        depth: 6
-      },
-      pagination: {
-        previousText: 'PREVIOUS',
-        nextText: 'NEXT',
-        crossChapter: true
-      },
-      plugins: [
-        function (hook, vm) {
-          hook.doneEach(function() {
-            var label, domObj, main, divEle, gitalk;
-            label = md5(decodeURI(vm.route.path.split("/").pop()));
-            domObj = Docsify.dom;
-            main = domObj.getNode("#main");
+    },
+    pagination: {
+      previousText: 'PREVIOUS',
+      nextText: 'NEXT',
+      crossChapter: true
+    },
+    plugins: [
+      function (hook, vm) {
+        hook.doneEach(function() {
+          var label, domObj, main, divEle, gitalk;
+          label = md5(decodeURI(vm.route.path.split("/").pop()));
+          domObj = Docsify.dom;
+          main = domObj.getNode("#main");
 
-            Array.apply(
-              null,
-              document.querySelectorAll("div.gitalk-container")
-            ).forEach(function(ele) {
-              ele.remove();
-            });
-      
-            divEle = domObj.create("div");
-            divEle.id = "gitalk-container-" + label;
-            divEle.className = "gitalk-container";
-            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-            domObj.appendTo(domObj.find(".content"), divEle);
-            gitalk = new Gitalk(
-              Object.assign(gitalkConfig, { id: !label ? "home" : label })
-            );
-            gitalk.render("gitalk-container-" + label);
+          Array.apply(
+            null,
+            document.querySelectorAll("div.gitalk-container")
+          ).forEach(function(ele) {
+            ele.remove();
           });
-        }
-      ]
+    
+          divEle = domObj.create("div");
+          divEle.id = "gitalk-container-" + label;
+          divEle.className = "gitalk-container";
+          divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+          domObj.appendTo(domObj.find(".content"), divEle);
+          gitalk = new Gitalk(
+            Object.assign(gitalkConfig, { id: !label ? "home" : label })
+          );
+          gitalk.render("gitalk-container-" + label);
+        });
+      }
+    ]
   }
 </script>
 <script src="/assets/js/md5.js"></script>
