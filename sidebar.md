@@ -1,21 +1,22 @@
 - [首页](/README.md)
-  - 第1章：开发入门
-    - [第1节：IDEA 插件怎么开发](/md/idea-plugin/2021-08-27-技术调研IDEA插件怎么开发.md)
-    - [第2节：IDEA 插件怎么发布](/md/idea-plugin/2021-08-29-技术实践IDEA插件怎么发布.md)
-  - 第2章：基础功能
-    - [第3节：两种方式创建插件工程](/md/idea-plugin/2021-10-18-第一节：两种方式创建插件工程.md)
-    - [第4节：配置窗体和侧边栏窗体的使用](/md/idea-plugin/2021-11-03-第二节：配置窗体和侧边栏窗体的使用.md)
-    - [第5节：开发工具栏和Tab页，展示股票行情和K线](/md/idea-plugin/2021-11-18-第三节：开发工具栏和Tab页展示股票行情和K线.md)
-  - 第3章：基建设计
-    - [第6节：扩展创建工程向导步骤，开发DDD脚手架](/md/idea-plugin/2021-11-24-第四节：扩展创建工程向导步骤开发DDD脚手架.md)
-    - [第7节：IDEA工程右键菜单，自动生成ORM代码](/md/idea-plugin/2021-12-08-第五节：IDEA工程右键菜单自动生成ORM代码.md)
-    - [第8节：选定对象批量织入“x.set(y.get)”代码，自动生成vo2dto](/md/idea-plugin/2021-12-14-第六节：以织入代码的方式自动处理vo2dto.md)
-  - 第4章：辅助工具
-    - [第9节：通过Inspection机制，对静态代码安全审查](/md/idea-plugin/2021-12-22-第7节：通过Inspection机制为静态代码安全审查.md)
-    - [第10节：在插件中引入探针，基于字节码插桩获取执行SQL](/md/idea-plugin/2022-01-17-第8节：在插件中引入探针基于字节码插桩获取执行SQL.md)
-    - [第11节：基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析](/md/idea-plugin/2022-01-22-第9节：加载文件生成链表单词树输入属性时英文校准提醒.md)
-    - [第12节：加载文件生成链表单词树，输入属性时英文校准提醒](/md/idea-plugin/2022-01-23-第10节：基于字节码插桩采集数据实现代码交付质量自动分析.md)
   
+- [Java](/java/README.md)
+  - [Thread](/java/java/thread.md)
+  - [Concurrent](/java/java/concurrent.md)
+  - [Proxy](/java/dynamic-proxy-in-java.md)
+  - [Mybatis-plus](/java/resultmap-in-mybatis-plus.md)
+  - [test](/java/testable-mock.md)
+  - [future](/java/java-in-the-future.md)
+
+- [MySQL](/mysql/README.md)
+  - [Explain](/mysql/how-to-use-mysql-explain.md)
+  - [MVCC](/mysql/mysql-transaction-innodb-mvcc.md)
+
+- [Netty](/netty/README.md)
+  - [Intro](/netty/the-truth-of-netty.md)
+  
+- [中间件](/middleware/README.md)
+
 - [算法](/leet-code/README.md)
   - 基础
     - [两数之和](/leet-code/0001-two-sum.md)
