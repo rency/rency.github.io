@@ -1,6 +1,6 @@
-# [合并排序数组](https://www.lintcode.com/problem/6/)
+# [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 
-## 题目表述
+## 题目描述
 将按升序排序的整数数组A和B合并，新数组也需有序。
 
 ### 示例 1：
@@ -28,3 +28,4 @@ B = [2,4,5,6]
 ```bash
 [1,2,2,3,4,4,5,6]
 ```
+## 题解
