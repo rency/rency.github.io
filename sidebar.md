@@ -1,6 +1,7 @@
 - [首页](/README.md)
   
 - Java
+  - [Java Guide](https://snailclimb.gitee.io/javaguide/)
   - [Thread](java/thread.md)
   - [Concurrent](java/concurrent.md)
   - [一文读懂Java中的动态代理](java/dynamic-proxy-in-java.md)
