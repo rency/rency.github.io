@@ -58,11 +58,13 @@
   - [Sentinel](middleware/sentinel.md)
 
 - 算法
-  - [概述](leet-code/README.md)
+  - [概述](leet_code/README.md)
   - 基础
-    - [两数之和](leet-code/0001-two-sum.md)
-    - [两数相加](leet-code/0002-add-two-numbers.md)
-    - [数组相对排序](leet-code/0004_relative_sort_array.md)
+    - [两数之和](leet_code/0001_two_sum.md)
+    - [两数相加](leet_code/0002_add_two_numbers.md)
+    - [数组相对排序](leet_code/0004_relative_sort_array.md)
+    - [反转链表](leet_code/0005_reverse_linked_list.md)
+    - [反转子链表](leet_code/0006_reverse_sub_linked_list.md)
     - [分治]()
     - [二分]()
     - [贪心]()
