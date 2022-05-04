@@ -1,6 +1,6 @@
 - [首页](/README.md)
   
-- [Java](java/README.md)
+- Java
   - [Thread](java/thread.md)
   - [Concurrent](java/concurrent.md)
   - [一文读懂Java中的动态代理](java/dynamic-proxy-in-java.md)
@@ -39,24 +39,25 @@
     - [模板方法模式(Template Method Pattern)——复杂流程步骤的设计]()
     - [访问者模式(Visitor Pattern)——操作复杂对象结构]()
   
-- [MyBatis](mybatis/README.md)
+- MyBatis
   - [MyBatis-Plus](mybatis/mybatis-plus.md)
   
-- [MySQL](mysql/README.md)
+- MySQL
   - [一文学会MySQL的explain工具](mysql/how-to-use-mysql-explain.md)
   - [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
   - [一文读懂MySQL的事务隔离级别及MVCC机制](mysql/mysql-transaction-innodb-mvcc.md)
 
-- [Netty](netty/README.md)
+- Netty
   - [不识Netty真面目，只缘未读此真经](netty/the-truth-of-netty.md)
   
-- [中间件](middleware/README.md)
+- 中间件
   - [分布式事务](middleware/distributed-transaction.md)
   - [Eureka](middleware/eureka.md)
   - [Nacos](middleware/nacos.md)
   - [Sentinel](middleware/sentinel.md)
 
-- [算法](leet-code/README.md)
+- 算法
+  - [概述](leet-code/README.md)
   - 基础
     - [两数之和](leet-code/0001-two-sum.md)
     - [两数相加](leet-code/0002-add-two-numbers.md)
