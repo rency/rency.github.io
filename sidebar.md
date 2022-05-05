@@ -66,6 +66,8 @@
     - [数组相对排序](leet_code/0004_relative_sort_array.md)
     - [反转链表](leet_code/0005_reverse_linked_list.md)
     - [反转子链表](leet_code/0006_reverse_sub_linked_list.md)
+    - [整数反转](leet_code/0007_reverse_integer.md)
+    - [LRU缓存](leet_code/lru_cache.md)
     - [分治]()
     - [二分]()
     - [贪心]()
