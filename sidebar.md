@@ -44,7 +44,9 @@
   - [MyBatis-Plus](mybatis/mybatis-plus.md)
   
 - MySQL
-  - [一文学会MySQL的explain工具](mysql/how-to-use-mysql-explain.md)
+  - [概述](mysql/README.md)
+  - [索引](mysql/index.md)
+  - [执行计划](mysql/explain.md)
   - [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
   - [一文读懂MySQL的事务隔离级别及MVCC机制](mysql/mysql-transaction-innodb-mvcc.md)
 
