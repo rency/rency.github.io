@@ -4,6 +4,23 @@ Spring boot Jar 俗称 Fat Jar
 ## Executable Jar文件结构
 ![image](spring/boot/../../executable-jar-infrastructure.jpg)
 
+## MANIFEST.MF 文件内容
+```xml
+Manifest-Version: 1.0
+Implementation-Title: demo
+Implementation-Version: 1.0.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: oneday
+Implementation-Vendor-Id: com.example
+Spring-Boot-Version: 2.1.3.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.example.demo.SpringBootLauncherDemo
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_171
+```
+
 ## spring-boot-maven-plugin 打包过程
 我们明明没有添加org.springframework.boot.loader下的这些类，那么它们是如何被打包在 FatJar 里面的呢？就是它, spring-boot-maven-plugin 
 
