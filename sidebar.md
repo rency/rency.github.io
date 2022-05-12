@@ -45,8 +45,8 @@
   
 - MySQL
   - [概述](mysql/README.md)
-  - [索引](mysql/index.md)
-  - [执行计划](mysql/explain.md)
+  - [索引](mysql/mysql_index.md)
+  - [执行计划](mysql/mysql_explain.md)
   - [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
   - [一文读懂MySQL的事务隔离级别及MVCC机制](mysql/mysql-transaction-innodb-mvcc.md)
 
@@ -61,16 +61,16 @@
   - [Sentinel](middleware/sentinel.md)
 
 - 算法
-  - [概述](leet_code/README.md)
+  - [概述](algorithm/README.md)
   - 基础
-    - [两数之和](leet_code/0001_two_sum.md)
-    - [两数相加](leet_code/0002_add_two_numbers.md)
-    - [数组相对排序](leet_code/0004_relative_sort_array.md)
-    - [反转链表](leet_code/0005_reverse_linked_list.md)
-    - [反转子链表](leet_code/0006_reverse_sub_linked_list.md)
-    - [重排链表](leet_code/0008_reorder_linked_list.md)
-    - [整数反转](leet_code/0007_reverse_integer.md)
-    - [LRU缓存](leet_code/lru_cache.md)
+    - [两数之和](algorithm/0001_two_sum.md)
+    - [两数相加](algorithm/0002_add_two_numbers.md)
+    - [数组相对排序](algorithm/0004_relative_sort_array.md)
+    - [反转链表](algorithm/0005_reverse_linked_list.md)
+    - [反转子链表](algorithm/0006_reverse_sub_linked_list.md)
+    - [重排链表](algorithm/0008_reorder_linked_list.md)
+    - [整数反转](algorithm/0007_reverse_integer.md)
+    - [LRU缓存](algorithm/lru_cache.md)
     - [分治]()
     - [二分]()
     - [贪心]()
@@ -90,4 +90,4 @@
   - 动态规划
     - [背包问题]()
     - [最长子序列]()
-    - [爬楼梯](/leet-code/0070-climbing-stairs.md)
+    - [爬楼梯](/algorithm/0070-climbing-stairs.md)
