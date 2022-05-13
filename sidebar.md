@@ -7,8 +7,8 @@
   - [一文读懂Java中的动态代理](java/dynamic-proxy-in-java.md)
   - [换种思路写Mock，让单元测试更简单](java/testable-mock.md)
   - [云原生时代的Java](java/java-in-the-future.md)
-  - [阿里巴巴Java开发手册——编程规约](java/alibaba-java-coding-guidelines-1.md)
-  - [阿里巴巴Java开发手册——异常处理、MySQL 数据库](java/alibaba-java-coding-guidelines-2.md)
+  - [Java开发手册——编程规约](java/alibaba-java-coding-guidelines-1.md)
+  - [开发手册——异常处理、MySQL 数据库](java/alibaba-java-coding-guidelines-2.md)
 
 - Spring
   - Core
