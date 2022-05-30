@@ -15,50 +15,21 @@
   - Boot
     - [java -jar 启动过程一探究竟](spring/boot/launcher_with_jar.md)
   - Cloud
-  
-- 设计模式
-  - [设计模式概述](design-pattern/overview.md)
-  - [面向对象设计原则](design-pattern/object-oriented-design-principles.md)  
-  - 创建型模式
-    - [工厂模式三兄弟(Factory Pattern)](design-pattern/factory-pattern.md)
-    - [单例模式(Singleton Pattern)——确保对象的唯一性](design-pattern/singleton-pattern.md)
-    - [原型模式(Prototype Pattern)——对象的克隆](design-pattern/prototype-pattern.md)
-    - [建造者模式(Builder Pattern)——复杂对象的组装与创建](design-pattern/builder-pattern.md)  
-  - 结构型模式
-    - [适配器模式(Adapter Pattern)——不兼容结构的协调](design-pattern/adapter-pattern.md)
-    - [桥接模式(Bridge Pattern)——处理多维度变化](design-pattern/bridge-pattern.md)
-    - [组合模式(Composite Pattern)——树形结构的处理](design-pattern/composite-pattern.md)
-    - [装饰模式(Decorator Pattern)——扩展系统功能](design-pattern/decorator-pattern.md)
-    - [外观模式(Facade Pattern)——提供统一的入口](design-pattern/facade-pattern.md)
-    - [享元模式(Flyweight Pattern)——实现对象的复用](design-pattern/flyweight-pattern.md)
-    - [代理模式(Proxy Pattern)——对象的间接访问](design-pattern/proxy-pattern.md)
-    - [一文读懂Java中的动态代理](java/dynamic-proxy-in-java.md)  
-  - 行为型模式
-    - [职责链模式(Chain of Responsibility Pattern)——请求的链式处理](design-pattern/chain-of-responsibility-pattern.md)
-    - [命令模式(Command Pattern)——请求发送者与接收者解耦](design-pattern/command-pattern.md)
-    - [解释器模式(Interpreter Pattern)——自定义语言的实现](design-pattern/interpreter-pattern.md)
-    - [迭代器模式(Iterator Pattern)——遍历聚合对象中的元素](design-pattern/iterator-pattern.md)
-    - [中介者模式(Mediator Pattern)——协调多个对象之间的交互](design-pattern/mediator-pattern.md)
-    - [备忘录模式(Memento Pattern)——撤销功能的实现]()
-    - [观察者模式(Observer Pattern)——对象间的联动]()
-    - [状态模式(State Pattern)——处理对象的多种状态及其相互转换]()
-    - [策略模式(Strategy Pattern)——算法的封装与切换]()
-    - [模板方法模式(Template Method Pattern)——复杂流程步骤的设计]()
-    - [访问者模式(Visitor Pattern)——操作复杂对象结构]()
-  
+
 - MyBatis
   - [MyBatis-Plus](mybatis/mybatis-plus.md)
-  
+
 - MySQL
   - [概述](mysql/README.md)
   - [索引](mysql/mysql_index.md)
   - [执行计划](mysql/mysql_explain.md)
+  - [分页查询性能优化](mysql/mysql_limit_performance.md)
   - [一文读懂MySQL的索引结构及查询优化](mysql/mysql-index-theory-and-best-practice.md)
   - [一文读懂MySQL的事务隔离级别及MVCC机制](mysql/mysql-transaction-innodb-mvcc.md)
 
 - Netty
   - [不识Netty真面目，只缘未读此真经](netty/the-truth-of-netty.md)
-  
+
 - 中间件
   - [分布式事务](middleware/distributed-transaction.md)
   - [Eureka](middleware/eureka.md)
@@ -97,3 +68,33 @@
     - [背包问题]()
     - [最长子序列]()
     - [爬楼梯](/algorithm/0070-climbing-stairs.md)
+
+- 设计模式
+  - [设计模式概述](design-pattern/overview.md)
+  - [面向对象设计原则](design-pattern/object-oriented-design-principles.md)  
+  - 创建型模式
+    - [工厂模式三兄弟(Factory Pattern)](design-pattern/factory-pattern.md)
+    - [单例模式(Singleton Pattern)——确保对象的唯一性](design-pattern/singleton-pattern.md)
+    - [原型模式(Prototype Pattern)——对象的克隆](design-pattern/prototype-pattern.md)
+    - [建造者模式(Builder Pattern)——复杂对象的组装与创建](design-pattern/builder-pattern.md)  
+  - 结构型模式
+    - [适配器模式(Adapter Pattern)——不兼容结构的协调](design-pattern/adapter-pattern.md)
+    - [桥接模式(Bridge Pattern)——处理多维度变化](design-pattern/bridge-pattern.md)
+    - [组合模式(Composite Pattern)——树形结构的处理](design-pattern/composite-pattern.md)
+    - [装饰模式(Decorator Pattern)——扩展系统功能](design-pattern/decorator-pattern.md)
+    - [外观模式(Facade Pattern)——提供统一的入口](design-pattern/facade-pattern.md)
+    - [享元模式(Flyweight Pattern)——实现对象的复用](design-pattern/flyweight-pattern.md)
+    - [代理模式(Proxy Pattern)——对象的间接访问](design-pattern/proxy-pattern.md)
+    - [一文读懂Java中的动态代理](java/dynamic-proxy-in-java.md)  
+  - 行为型模式
+    - [职责链模式(Chain of Responsibility Pattern)——请求的链式处理](design-pattern/chain-of-responsibility-pattern.md)
+    - [命令模式(Command Pattern)——请求发送者与接收者解耦](design-pattern/command-pattern.md)
+    - [解释器模式(Interpreter Pattern)——自定义语言的实现](design-pattern/interpreter-pattern.md)
+    - [迭代器模式(Iterator Pattern)——遍历聚合对象中的元素](design-pattern/iterator-pattern.md)
+    - [中介者模式(Mediator Pattern)——协调多个对象之间的交互](design-pattern/mediator-pattern.md)
+    - [备忘录模式(Memento Pattern)——撤销功能的实现]()
+    - [观察者模式(Observer Pattern)——对象间的联动]()
+    - [状态模式(State Pattern)——处理对象的多种状态及其相互转换]()
+    - [策略模式(Strategy Pattern)——算法的封装与切换]()
+    - [模板方法模式(Template Method Pattern)——复杂流程步骤的设计]()
+    - [访问者模式(Visitor Pattern)——操作复杂对象结构]()
