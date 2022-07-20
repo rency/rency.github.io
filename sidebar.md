@@ -45,15 +45,16 @@
     - [数组相对排序](algorithm/0004_relative_sort_array.md)
     - [反转链表](algorithm/0005_reverse_linked_list.md)
     - [反转子链表](algorithm/0006_reverse_sub_linked_list.md)
-    - [重排链表](algorithm/0008_reorder_linked_list.md)
     - [整数反转](algorithm/0007_reverse_integer.md)
+    - [重排链表](algorithm/0008_reorder_linked_list.md)
     - [LRU缓存](algorithm/lru_cache.md)
     - [分治]()
     - [二分]()
     - [贪心]()
   - 排序
     - [快速排序]()
-    - [归并排序]()
+    - 归并排序
+      - [链表排序](algorithm/0009_sort_linked.md)
     - [计数排序]()
   - 搜索
     - [回溯]()
